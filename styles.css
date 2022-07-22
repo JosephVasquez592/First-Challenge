@@ -1,0 +1,162 @@
+/*Used to modify the boxes, the spaces between their content and their borders, and the area around an element */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/*Changes the background color for the body*/
+body {
+    background-color: d9dcd6;
+}
+
+/*Adjusts the header and text on the left side of the header*/
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+/*Changes the height, width, and font size of the text on the left side of the header*/
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/*Changes the letters "seo" in the header*/
+.header h1 .seo {
+    color: #d9dcd6;
+    display: inline-block;
+    font-size: 48px;
+}
+
+/*Adjusts the text in the navbar at the top left of the page*/
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/*Changes the style of the list used in the top part of the page*/
+.header div ul {
+    list-style-type: none;
+}
+
+/*Sets spacing for elements in the navbar*/
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/*Changes text style and color for navbar*/
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/*Changes font size for paragraph elements*/
+p {
+    font-size: 16px;
+}
+
+/*Background image properties*/
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("./digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/*Changes where the box direction and margins are set on the page*/
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/*Adjusts the images on the right side of the page*/
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/*Adjusts left page content*/
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/*Adjusts items on right section of page*/
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/*Changes text color and bottom margin for the specified class*/
+.benefit-lead {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/*Changes the way the text is shown and the margin for right section of page*/
+.benefit-lead h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/*Adjusts image properties for right section of page*/
+.benefit-lead img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/*Adjusts properties for content on left section of the page*/
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/*Adjusts height value for images in left section of the page*/
+.search-engine-optimization img {
+    max-height: 200px;
+}
+
+/*Adjsuts the bottom margin and header font size for left side section of page*/
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/*Changes the properties of the footer section*/
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+/*Adjusts the font size of the h2 element within the footer section*/
+.footer h2 {
+    font-size: 20px;
+}
+
+/*Sets the color for the heart in the h2 element in the footer*/
+.material-icons {
+    color: red;
+}
